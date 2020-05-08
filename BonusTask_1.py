@@ -33,9 +33,9 @@ hero_name = fullname.upper()
 
 gmail_user = "dolphydhingra29@gmail.com"
 gmail_pwd = "Dolphy@1048"
-TO = ['cu.18bcs1048@gmail.com']
+TO = ['shantam1230@gmail.com']
 SUBJECT = "Bonus task by Dolphy Dhingra "
-TEXT = "Testing...... sending mail using Gmail with the help of python..." + hero_name + " Link to your branch file here"
+TEXT = "Testing...... sending mail using Gmail with the help of python..." + hero_name + " https://github.com/dolphy17/Bonus-task/blob/master/BonusTask_1.py"
 
 server = smtplib.SMTP('smtp.gmail.com', 587)
 server.ehlo()
